@@ -1,6 +1,6 @@
-namespace TuberTreats.Models;
+namespace TuberTreats.Models.DTO;
 
-public class TuberTopping
+public class TuberToppingDTO
 {
     public int Id { get; set; }
     public int TuberOrderId { get; set; }
